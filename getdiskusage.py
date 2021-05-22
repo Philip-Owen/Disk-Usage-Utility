@@ -4,8 +4,6 @@ from pathlib import Path
 
 mount_point = sys.argv[1]
 
-output = os.listdir(mount_point)
-
 disk_usage = {"files": []}
 
 
